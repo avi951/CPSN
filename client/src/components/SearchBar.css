@@ -1,0 +1,100 @@
+
+
+
+.search{
+
+  padding-top: 40px;
+}
+
+.searchInputs {
+  display: flex;
+  width: 20%;
+  margin: 0 auto;
+  
+
+  }
+
+  .buildingName{
+    color: black;
+    cursor: pointer;
+  }
+  
+  .search input {
+ background-color: transparent;
+ border: 0;
+ color:#ffff ;
+ border-bottom: .5px solid gray;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 15px;
+    height: 50px;
+    width: 400px;
+  }
+
+  @media only screen and (min-width : 150px) and (max-width : 780px)
+{
+	.searchInputs
+	{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+}
+
+
+  
+  .searchIcon {
+    height: 50px;
+    width: 50px;
+   color: aliceblue;
+   
+    place-items: center;
+    
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  .searchIcon svg {
+    font-size: 35px;
+  }
+  
+  
+  .dataResult {
+   position: absolute;
+   right: 0;
+   left: 0;
+    width: 300px;
+  
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+    margin: 0 auto;
+    z-index: 1;
+    
+  }
+  
+  .dataResult::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .dataResult .dataItem {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: rgb(251, 251, 251);
+  }
+  
+  .dataItem p {
+    margin-left: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+ 
+  #clearBtn {
+    cursor: pointer;
+  }

@@ -1,0 +1,2 @@
+
+MONGO_URI=mongodb+srv://Prasanna9:Prasanna9@cpsn.mycd3.mongodb.net/apf?retryWrites=true&w=majority

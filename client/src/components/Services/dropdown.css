@@ -1,0 +1,32 @@
+.multiselect-container{
+  background-color: white;
+  width: fit-content;
+}
+
+.option{
+width: 400px;
+}
+
+
+.multiSelectContainer ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+  /* width: 100%; */
+  border: 1px solid black;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.multiSelectContainer li:hover {
+  background: #ececec;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* .optionContainer li:hover{
+  background: red;
+  color: #fff;
+  width: fit-content;
+} */

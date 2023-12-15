@@ -1,0 +1,251 @@
+.form1
+{
+    height: 73.95vh;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    display: block;
+
+}
+.form2
+{
+    height: 73.95vh;
+    width:100%;
+    height: 700px;
+    text-align: center;
+    display: block;
+
+}
+.background_image
+{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.form-heading
+{
+    height: 150px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #F2A611;
+    font-family: "inter-bold";
+    font-size: 1.52cm;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.inputs
+{
+    width: 77%;
+    margin: 0 auto;
+    z-index: 3;
+    height: auto;
+    margin-top: 20px;
+    text-align: left;
+
+}
+.phone
+{
+    width: 100%;
+  margin: 0 auto;
+  caret-color: #000;
+
+}
+.email
+{
+    width: 100%;
+    margin: 0 auto;
+    caret-color: #000;
+}
+.label
+{
+    font-family: "inter-bold";
+    color: #000;
+}
+
+.name
+{
+    width: 100%;
+    margin: 0 auto;    
+}
+.dropdown
+{
+    margin-bottom: 20px;
+}
+.label1
+{
+    font-family: "inter-bold";
+    color: #F2A611;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.sinputs
+{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: grid;
+    caret-color: #000;
+}
+.label2
+{
+    font-family: "inter-bold";
+    color: #000;
+    margin-bottom: 10px;
+}
+.label3
+{
+    font-family: "inter-bold";
+    color: #000;
+    width: 100%;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+.submit
+{
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.basics
+{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.company-name
+{
+    margin-left: 0px;
+    color:#000;
+    caret-color: #000;
+}
+.inputs1
+{
+    text-align: center;
+}
+.submit1
+{
+    display: flex;
+    background-color: #F2A611;
+    width: 90px;
+    margin: 0 auto;
+    margin-top:30px ;
+    
+}
+.blur
+{
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    margin: 0 auto;
+    width: 80%;
+    height: 1600px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.submit-btn
+{
+    width: 100%;
+    height: 30px;
+}
+.blur1
+{
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20%;
+}
+.logo
+{
+  height: 30px;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+.option
+{
+  height: 50px;
+  width: 143px;
+  padding: 12px;
+}
+.login
+  {
+    position: absolute;
+    margin:15px 30px;
+   right: 10px;
+   font-size: 18px;
+  }
+ .navbar
+  {
+    height: 60px;
+    width: 100%;
+    display: flex;    
+    margin-top:0;
+    z-index: 2;
+    background-color: black;
+    color: #fff;
+  }
+  .navigator
+  {
+      height: 40px;
+  }
+  .register
+  {
+      padding: 20px;
+      font-size: 18px;
+      width: auto;
+  }
+@media only screen and (max-width: 600px)
+{
+    .register
+    {
+        font-size: 12px;
+    }
+    .label
+    {
+        font-size: 15px;
+    }
+    .label2
+    {
+        font-size: 15px;
+    }
+    
+   
+}
+.dropdown1
+{
+    font-size: 16px;
+     font-weight: 900;
+     color: #F2A611;
+     background: transparent;
+}
+.Fileupload
+{
+    width: 100%;
+    background-color: #f2a711b4;
+    color: #fff;
+}
+.background
+{
+    background-color: #272331;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.empty-validation{
+    color: red;
+    font-size: 10px;
+}
+.navbar-nav .nav-link {
+    height: 40px;
+    color: rgba(0,0,0,.55);
+}

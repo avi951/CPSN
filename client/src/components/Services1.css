@@ -1,0 +1,81 @@
+body{
+    background-color: rgba(5, 0, 17, 0.863);
+}
+.select-service
+{
+    height: 820px;
+    width: 100%;
+    /* background-color: rgb(6, 0, 15); */
+    margin: 0 auto;
+}
+.Hero-text
+{
+  
+    width:50%;
+    height: 200px;
+    
+    margin: 0 auto;
+    font-size: xxx-large;
+    color: #fff;
+    padding: 10% 0;
+    text-align: center;
+}
+.country
+{ 
+    background-color:rgb(72, 73, 82);
+    color:wheat;
+    margin:20px;
+    width: 90px;
+    height: 30px;
+    padding: 2px;
+    text-align: center; 
+}
+.Selections
+{
+    width: 100%;
+    text-align: center;
+   margin-top:30px;
+    
+    
+}
+.State
+{
+    background-color:rgb(72, 73, 82);
+    color:wheat;
+  padding-left: 10px;
+    width: 90px;
+    height: 30px;
+    padding: 2px;
+    text-align: center; 
+    margin:20px;
+
+}
+.Dds9
+{
+    margin: 20px;
+    height: 40px;
+    background-color: rgb(72, 73, 82);
+    color: burlywood;
+   
+}
+.srch-btn
+{
+    width: 100%;
+    text-align: center;
+}
+.search-btn
+{
+    width: 10%;
+    height: 30px;
+    background-color: rgb(119, 119, 119);
+   color: #fff;
+}
+.or
+{
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+
+}
